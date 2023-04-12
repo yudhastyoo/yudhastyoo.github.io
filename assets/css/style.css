@@ -1,0 +1,588 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #212427;
+  background-color: rgb(247, 247, 247);
+}
+
+.navbar {
+  /* background-color: #e8e8e8; */
+  background-color: rgb(247, 247, 247);
+  /* background-color: transparent; */
+  transition: background-color 0.5s ease-in-out;
+  height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  color: #212427 !important;
+}
+
+.navbar a:hover {
+  color: #4361ee !important;
+}
+
+/* Header */
+
+.header {
+  /* background-image: linear-gradient(black, black), url(/assets/img/bg-hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-blend-mode: saturation; */
+  /* background-color: rgb(247, 247, 247); */
+  background-color: #e8e8e8;
+  min-height: 100vh;
+  display: flex;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header h2 {
+  color: #4361ee;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.header p span {
+  font-size: 16px;
+  color: #4361ee;
+  font-weight: 600;
+}
+
+.header #btn-contactme {
+  background-color: #4361ee;
+  border: none;
+}
+
+.header #btn-contactme:hover {
+  background-color: #3a0ca3;
+}
+
+.header #btn-github {
+  color: #4361ee;
+}
+
+.header #btn-github:hover {
+  color: #3a0ca3;
+}
+
+.header #btn-linkedin {
+  color: #4361ee;
+}
+
+.header #btn-linkedin:hover {
+  color: #3a0ca3;
+}
+
+/* .header .border-img {
+    border: 10px solid black;
+} */
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4361ee;
+  border-radius: 10px 30%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .brands .card-hero {
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+} */
+
+/* Header End*/
+
+/* About */
+
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.about .wrapper {
+  width: 850px;
+  height: auto;
+}
+
+.about img {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4361ee;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about #btn-resume {
+  background-color: #4361ee;
+  border: none;
+}
+
+.about #btn-resume:hover {
+  background-color: #3a0ca3;
+}
+
+/* About End */
+
+/* Services */
+
+.services {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.services-wrapper {
+  /* background-color: #4361EE; */
+  /* border-radius: 10px; */
+}
+
+.services i {
+  color: #4361ee;
+  /* background-color: #5671ea; */
+}
+
+.services .card-content {
+  background-color: rgb(247, 247, 247);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.services .tools h6 {
+  color: #4361ee;
+}
+
+/* Services End */
+
+/* Projects */
+
+.projects {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.swiper {
+  width: 900px;
+  height: 400px;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #4361ee;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #4361ee;
+}
+
+.projects .card-projects {
+  background: none;
+  border: none;
+}
+
+.projects img {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.projects #btn-see-more,
+.badge {
+  background-color: #4361ee;
+  border: none;
+}
+
+.projects #btn-see-more:hover {
+  background-color: #3a0ca3;
+}
+
+.projects-modal #btn-demo,
+.badge {
+  background-color: #4361ee;
+}
+
+.projects .card-portfolio {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 10px;
+  color: #4361ee;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.projects .card-portfolio p {
+  color: #212427;
+  font-weight: 500;
+}
+
+.projects .card-portfolio #btn-portfolio {
+  background-color: #4361ee;
+  border: none;
+}
+
+.projects .card-portfolio #btn-portfolio:hover {
+  background-color: #3a0ca3;
+}
+
+/* Projects End */
+
+/* Conctact */
+.contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact .card {
+  background-color: #4361ee;
+  border: none;
+  border-radius: 10px;
+}
+
+.contact .card h3 {
+  color: #e8e8e8;
+}
+
+.contact .card .contact-data p {
+  color: #e8e8e8;
+}
+
+.contact img {
+  /* display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e8e8e8; */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact #btn-contact {
+  background-color: #e8e8e8;
+  color: #4361ee;
+}
+
+.contact #btn-contact:hover {
+  color: #e8e8e8;
+  background-color: #3a0ca3;
+}
+
+.contact #btn-whatsapp {
+  background-color: #e8e8e8;
+  color: #4361ee;
+}
+
+.contact #btn-whatsapp:hover {
+  color: #e8e8e8;
+  background-color: #3a0ca3;
+}
+
+/* .tooltip-inner {
+    color: #e8e8e8;
+    background-color: #F72585;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #F72585;
+} */
+
+/* .contact .wrapper {
+    width: 850px;
+    height: auto;
+} */
+
+/* Conctact End */
+
+/* Footer */
+
+footer {
+  color: #e8e8e8;
+  background-color: #4361ee;
+}
+
+footer a {
+  color: #e8e8e8;
+}
+
+/* Footer End */
+
+/* Portfolio Page */
+
+/* Header */
+
+.header-portfolio {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-portfolio h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header-portfolio h2 {
+  color: #4361ee;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.header-portfolio .card-container {
+  width: 600px;
+}
+
+.header-portfolio .card {
+  width: 10rem;
+  background-color: #4361ee;
+  color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-portfolio #btn-showme {
+  background-color: #4361ee;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-portfolio #btn-showme:hover {
+  background-color: #3a0ca3;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Header End*/
+
+/* Nav */
+
+.nav-portfolio {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.nav-portfolio .tab-content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 500px;
+}
+
+.nav-portfolio .card-nav {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-portfolio .card-header {
+  background-color: #4361ee;
+}
+
+.nav-portfolio .nav-item a {
+  color: #eee;
+  font-weight: 600;
+}
+
+.nav-portfolio .card-product {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-portfolio .card-product #btn-visit {
+  background-color: #4361ee;
+}
+
+.nav-portfolio .card-product #btn-visit:hover {
+  background-color: #3a0ca3;
+}
+
+/* Nav End */
+
+/* For Smaller Screen */
+
+/* Mobile Screen */
+@media screen and (max-width: 576px) {
+  /* Header */
+
+  .header {
+    text-align: center;
+    min-height: 100vh !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .header h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .header h2 {
+    color: #4361ee;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .header h3 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 16px;
+    font-weight: 600;
+    /* text-align: justify; */
+    /* text-align-last: center; */
+  }
+
+  .header p span {
+    font-size: 16px;
+    color: #4361ee;
+    font-weight: 600;
+  }
+
+  .header #btn-contactme {
+    background-color: #4361ee;
+    border: none;
+    display: block;
+  }
+
+  .header #btn-contactme:hover {
+    background-color: #3a0ca3;
+  }
+
+  .header #btn-github,
+  #btn-linkedin {
+    margin-top: 20px;
+  }
+
+  /* Header End */
+
+  /* About */
+
+  /* .about {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    } */
+
+  .about .wrapper {
+    width: auto;
+    height: auto;
+  }
+
+  .about img {
+    display: block;
+    width: 250px;
+    margin: 0 auto 50px;
+    background-color: #4361ee;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .about #btn-resume {
+    background-color: #4361ee;
+    border: none;
+  }
+
+  .about #btn-resume:hover {
+    background-color: #3a0ca3;
+  }
+
+  /* About End */
+
+  /* Services */
+
+  .services {
+    margin-top: 100px;
+  }
+
+  .services .card-content {
+    margin: 20px auto;
+  }
+
+  /* Services End */
+
+  /* Projects */
+
+  .projects {
+    display: flex;
+    align-items: center;
+  }
+
+  .swiper {
+    width: auto;
+  }
+
+  .projects .card-projects {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .projects img {
+    width: 240px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .projects .card-portfolio {
+    width: auto !important;
+  }
+
+  /* Projects End */
+
+  /* Contact */
+
+  .contact {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact .card {
+    width: auto !important;
+  }
+
+  /* .contact .card p {
+        text-align: justify;
+    } */
+
+  .contact #btn-contact,
+  #btn-whatsapp {
+    display: block;
+  }
+
+  /* Contact End */
+}
